@@ -1,0 +1,34 @@
+
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+    mix-blend-mode: difference;
+    padding: 2vw 4vw;
+}
+
+#header .common-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#header .gnb-list{
+    display: flex;
+    gap: 30px;
+}

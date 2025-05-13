@@ -1,0 +1,63 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    margin: -1px;
+}
+
+h2{
+    font-weight: 700 !important;
+    font-size: 217px;
+}
+
+.font1{
+    font-family: 'behance', sans-serif;
+    font-size: 120px !important;  
+}
+.font2{
+    font-family: 'noBG-Base', sans-serif;
+}
+.font3{
+    font-family: 'noBG-Bubble', sans-serif;
+    font-size: 90px !important; 
+}
+.font4{
+    font-family: 'noBG-Cloud', sans-serif;
+    font-size: 50px !important; 
+}
+.font5{
+    font-family: 'noBG-Cube', sans-serif;
+}
+.font6{
+    font-family: 'noBG-Messier', sans-serif;
+}
+.font7{
+    font-family: 'noBG-Messy', sans-serif;
+}
+.font8{
+    font-family: 'noBG-Pearl', sans-serif;
+    font-size: 70px !important; 
+    
+}
+.font9{
+    font-family: 'noBG-Ring', sans-serif;
+    
+}
+.font10{
+    font-family: 'behance', sans-serif;
+}
+.font11{
+    font-family: 'britti-regular', sans-serif;
+}
+.font12{
+    font-family: 'britti-semibold', sans-serif;
+}
+.font13{
+    font-family: 'CosplayRegular', sans-serif;
+}
+.font14{
+    font-family: 'Cbootstrap', sans-serif;
+}
+

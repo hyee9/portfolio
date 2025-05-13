@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Aeonik Pro;
+    src: url(../fonts/AeonikPro-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik Pro;
+    src: url(../fonts/AeonikPro-Regular.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Stanley;
+    src: url(../fonts/Stanley.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: behance;
+    src: url(../fonts/behance-6425c4b11e3d5.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+/* ----- */
+
+
+@font-face {
+    font-family: Variable;
+    src: url(../fonts/PPMuseum-Variable.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: VariableItalic;
+    src: url(../fonts/PPMuseum-VariableItalic.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Italic;
+    src: url(../fonts/PPNeueMontreal-Italic.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Var;
+    src: url(../fonts/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+/* ----- */
+
+
+@font-face {
+    font-family: noBG-Base;
+    src: url(../fonts/bianzhidai_noBG-Base.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: noBG-Brush;
+    src: url(../fonts/bianzhidai_noBG-Brush.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: noBG-Bubble;
+    src: url(../fonts/bianzhidai_noBG-Bubble.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: noBG-Cloud;
+    src: url(../fonts/bianzhidai_noBG-Cloud.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: noBG-Cube;
+    src: url(../fonts/bianzhidai_noBG-Cube.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: noBG-Messier;
+    src: url(../fonts/bianzhidai_noBG-Messier.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: noBG-Messy;
+    src: url(../fonts/bianzhidai_noBG-Messy.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: noBG-Pearl;
+    src: url(../fonts/bianzhidai_noBG-Pearl.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: noBG-Ring;
+    src: url(../fonts/bianzhidai_noBG-Ring.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family:noBG-Stitches;
+    src: url(../fonts/bianzhidai_noBG-Stitches.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+
+
+/* ----- */
+@font-face {
+    font-family:britti-regular;
+    src: url(../fonts/britti-sans-regular.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family:britti-semibold;
+    src: url(../fonts/britti-sans-semibold.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family:CosplayRegular;
+    src: url(../fonts/CosplayRegular-Web.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family:Cbootstrap;
+    src: url(../fonts/Cbootstrap-icons.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+
+
+/* 한글  */
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    src: url(../fonts/Pretendard-Regular.woff) format("woff");
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    src: url(../fonts/Pretendard-Bold.woff) format("woff");
+    font-style: normal;
+    font-display: swap;
+  }
