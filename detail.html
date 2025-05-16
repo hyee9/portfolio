@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Detail</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f0;
+    }
+    .header-area {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #f0f2f0;
+      padding: 0.1rem;
+      border-bottom: 1px solid #000;
+    }
+    .inner {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .main-side {
+      display: flex;
+    }
+    .side {
+        margin-top: 70px;
+      flex: 0 0 20%;
+      border-right: 1px solid #000;
+      padding: 2rem;
+    }
+    .main {
+      flex: 1;
+    }
+    .main img{
+        margin-top: 67px;
+        width: 100%;
+        height: 100%;
+    }
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .info p {
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-area">
+    <div class="inner">
+      <a href="index.html"><h2>HOME</h2></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-side">
+      <div class="side">
+        <div class="inner">
+          <div class="title" id="project-title">Loading...</div>
+          <div class="info">
+            <p id="project-description"></p>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <img id="project-image" src="" alt="Project Image">
+      </div>
+    </section>
+  </main>
+<script>
+  const projects = {
+    gentlemonster: {
+      title: "GENTLE MONSTER",
+      description: `
+        <p><strong>1. 몽환적이고 드라마틱한 비주얼 중심</strong></p>
+        <p style="margin-bottom:1em;">하늘과 구름 위 유니콘 → 현실과 환상의 경계 허물기</p>
+        <p><strong>2. 감정/감성 중심 UI 구성</strong></p>
+        <ul>
+          <li>여백 중심, 포토그래피 강조</li>
+          <li>정적인 고급 무드</li>
+        </ul>
+      `,
+      image: "./assets/images/gentlemonster.jpg"
+    },
+    lykke: {
+      title: "LYKKE PROJECT",
+      description: `
+        <p><strong>삼성의 비주얼 브랜딩 개선</strong></p>
+        <p>제품 중심에서 사용자 경험 중심으로 전환</p>
+        <p>미니멀하고 인터랙티브한 UI 구성</p>
+      `,
+      image: "./assets/images/LYKKE.jpg"
+    }
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const projectId = params.get("id");
+
+  if (projectId && projects[projectId]) {
+    const project = projects[projectId];
+    document.getElementById("project-title").textContent = project.title;
+    document.getElementById("project-description").innerHTML = project.description; // ✅ HTML 렌더링
+    document.getElementById("project-image").src = project.image;
+  } else {
+    document.getElementById("project-title").textContent = "Project Not Found";
+    document.getElementById("project-description").textContent = "해당 프로젝트 정보를 찾을 수 없습니다.";
+  }
+</script>
+</body>
+</html>

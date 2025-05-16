@@ -76,6 +76,19 @@ if (document.querySelector('.sw-banner')) {
   }
 }
 
+gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sc-design",
+    start: "top 90%",
+    end: "top top+=100",
+    toggleActions: "play none none none",
+  }
+}).to(".sc-design .line3", {
+  scaleX: 1,
+  ease: "power3.out"
+});
+
+
 // ✅ sc-work 라인
 gsap.timeline({
   scrollTrigger: {
@@ -243,3 +256,4 @@ gsap.fromTo(".img-area img",
     }
   }
 );
+
