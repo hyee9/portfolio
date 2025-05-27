@@ -1,0 +1,123 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f0;
+    }
+    .header-area {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #f0f2f0;
+      padding: 0.1rem;
+      border-bottom: 1px solid #000;
+      height: 70px;
+    }
+    a{
+       text-decoration-line: none;
+    }
+    .h2{
+      font-size: 16px;
+      width: 100%;
+      color: #000;
+    }
+    .inner1 {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      z-index: 99;
+    }
+    .inner {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .main-side {
+      display: flex;
+    }
+    .side {
+        margin-top: 70px;
+      flex: 0 0 20%;
+      border-right: 1px solid #000;
+      padding: 2rem;
+    }
+    .main {
+      flex: 1;
+    }
+    .main img{
+        margin-top: 67px;
+        width: 100%;
+        height: 100%;
+    }
+    .title {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .info p {
+      font-size: 20px;
+    }
+    .m-content{
+      margin-bottom: 150px;
+    }
+    .line{
+      border: 0.1px solid #000000;
+    }
+    .index{
+      margin-top: 80px;
+    }
+    .index_area{
+      margin-bottom: 50px;
+    }
+    .righttext{
+      font-size: 15px;
+      color: #646464;
+    }
+    .m-title{
+      border-top: 20px;
+    }
+
+
+    .main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+    height: calc(100vh - 70px); /* 헤더 제외 전체 화면 채움 */
+    }
+    .preview-content {
+      position: relative;
+      overflow: hidden;
+      border: 0.5px solid #000;
+      height: 100%; /* 셀 전체 차지 */
+    }
+    .preview-content img {
+      width: 100%;
+      filter: grayscale(100%);
+      transition: 0.4s ease;
+      cursor: zoom-in;
+      height: 100%;
+       object-fit: cover; /* 이미지가 비율 유지는 하되 공간 꽉 채우게 */
+    }
+    .preview-content:hover img {
+      filter: grayscale(0%);
+      transform: scale(1.05);
+    }
+    .lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.9);
+    overflow: auto;
+    text-align: center;
+    }
+
+    .lightbox-overlay img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
+    margin-top: 0; /* default */
+    transition: margin-top 0.3s ease;
+    }

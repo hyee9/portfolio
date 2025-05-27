@@ -125,6 +125,18 @@
     font-style: normal;
     font-display: swap
 }
+@font-face {
+    font-family:Abril-Fatface;
+    src: url(../fonts/Abril-Fatface-Regular.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family:Walbaum_SSi;
+    src: url(../fonts/Walbaum_SSi_Bold_Italic.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
 
 
 

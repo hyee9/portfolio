@@ -257,3 +257,17 @@ gsap.fromTo(".img-area img",
   }
 );
 
+document.querySelectorAll('.gnb-item').forEach(item => {
+  item.addEventListener('click', function (e) {
+    e.preventDefault(); // 기본 동작 막기
+
+    const targetName = item.dataset.menu; // ex: "about"
+    const section = document.querySelector(`.sc-${targetName}`);
+    if (section) {
+      section.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});

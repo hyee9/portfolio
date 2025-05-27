@@ -4,54 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Detail</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f0;
-    }
-    .header-area {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #f0f2f0;
-      padding: 0.1rem;
-      border-bottom: 1px solid #000;
-    }
-    .inner {
-      max-width: 1200px;
-      margin: auto;
-    }
-    .main-side {
-      display: flex;
-    }
-    .side {
-        margin-top: 70px;
-      flex: 0 0 20%;
-      border-right: 1px solid #000;
-      padding: 2rem;
-    }
-    .main {
-      flex: 1;
-    }
-    .main img{
-        margin-top: 67px;
-        width: 100%;
-        height: 100%;
-    }
-    .title {
-      font-size: 2rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
-    .info p {
-      white-space: pre-line;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/css/detail.css">
+
 </head>
 <body>
   <header class="header-area">
-    <div class="inner">
+    <div class="inner1">
       <a href="index.html"><h2>HOME</h2></a>
     </div>
   </header>
@@ -76,24 +34,126 @@
     gentlemonster: {
       title: "GENTLE MONSTER",
       description: `
-        <p><strong>1. 몽환적이고 드라마틱한 비주얼 중심</strong></p>
-        <p style="margin-bottom:1em;">하늘과 구름 위 유니콘 → 현실과 환상의 경계 허물기</p>
-        <p><strong>2. 감정/감성 중심 UI 구성</strong></p>
-        <ul>
-          <li>여백 중심, 포토그래피 강조</li>
-          <li>정적인 고급 무드</li>
-        </ul>
-      `,
-      image: "./assets/images/gentlemonster.jpg"
+            <div class ="m-content">
+              <div class ="m-title">
+                <p><strong> BRAND STORY</strong></p>
+                <p>젠틀몬스터는 독특하고 미래지향적인 디자인이 특징인 한국의 아이웨어(eye wear) 브랜드로,
+                  “미래에 대한 젠틀몬스터의 시각을 제시하고, 고객에게 메시지를 1차원적으로 전하기보다는,
+                  호기심을 자극할 수 있는 추상적 주제를 던져 더 새롭고 재밌는 상상을 많이 할 수 있도록 하고 싶다”라는
+                  브랜드 철학을 가진 글로벌 아이웨어 브랜드입니다.</p>
+              </div>  
+              <div class ="m-title">
+                <p> <strong>OVERVIEW</strong></p>
+                <P>젠틀몬스터 제니의 콜라보를 발판으로  다양한 브랜드들과의 컬렉션, 공간, 3D 가상 피팅 등
+                  새롭고 혁신적인 경험과 소비자들이 더 편리하게 아이웨어를 이용할 수 있도록 서비스를 제공하고자 제작했습니다.
+                  젠틀몬스터만의 정체성을 살린 직각적인 설계와 디자인으로 MZ세대를 대상으로 제니의 아이텐티를 잘 살리며 
+                  소비자들에게 직관적으로 보일수있도록 기획했습니다.
+                  </p>
+              </div>  
+            </div> 
+             <div class ="line"></div>
+            <div class ="index">
+               <div class ="index_area">
+                  <p><strong>01. MAIN VISUAL</strong></p>
+                  <p>브랜드의 대표 이미지와 함께 강렬한 첫인상을 주는 비주얼 영역.</P>
+                  <span class="righttext"> 상단의 블랙핑크 제니 캠페인 이미지가 해당. 브랜드의 감성과 정체성을 시각적으로 강조.</span>                   
+                </div>
+               <div class ="index_area">
+                  <p><strong>02.NEW ARRIVALS</strong></p>
+                  <p>신제품을 이미지 중심으로 보여주는 영역.</P> 
+                    <span class="righttext"> 다양한 모델 착용 컷과 함께 제품명, 가격 정보가 나열된 섹션. 직관적으로 상품 확인 가능</span>
+                </div>
+             </div> 
+               <div class ="index_area">
+                  <p><strong>03.OUR STORY</strong></p>
+                  <p>브랜드의 의미와 아이덴티티를 설명하는 구간.</P> 
+                    <span class="righttext"> 제니의 협업 배경 및 브랜드 서사 제시.</span>
+                </div>
+               <div class ="index_area">
+                  <p><strong>04.JENTLE COLLECTION</strong></p>
+                  <p>젠틀몬스터와 제니가 함께 상상한 세번째 프로젝트 ‘젠틀살롱 (JENTLE SALON)’을 소개.</P> 
+                    <span class="righttext"> 제니의 협업 제품과 착용 컷과 함께 제품명 강조.</span>
+                </div>
+                 <div class ="index_area">
+                  <p><strong>05.JENTLE SALON</strong></p>
+                  <p>카테고리 구분으로 제품을 쉽게 찾을 수 있게 구성.</P> 
+                    <span class="righttext"> ‘JENTLE SALON Collection’ 영역. 다양한 스타일별 제품 노출로 선택을 유도. </span>
+                </div>
+                 <div class ="index_area">
+                  <p><strong>06.CHARM</strong></p>
+                  <p>해당 대표제품을 직관적으로 볼수있게 구성.</P> 
+                    <span class="righttext"> 제니와의 협업을 전면에 드러낸 JENTLE SALON 시리즈가 해당. 화제성 및 트렌드 반영.</span>
+                </div>
+                 <div class ="index_area">
+                  <p><strong>07.FOOTER</strong></p>
+                  <p>전체 사이트 정보 요약 구간.</P> 
+                    <span class="righttext"> 가장 하단의 회색 배경 영역. 고객 서비스, 약관, 회사 정보 등이 정리되어 있음.</span>
+                </div>
+             </div> 
+            `,
+      image: "./assets/images/gentlemonster.png"
     },
     lykke: {
       title: "LYKKE PROJECT",
       description: `
-        <p><strong>삼성의 비주얼 브랜딩 개선</strong></p>
-        <p>제품 중심에서 사용자 경험 중심으로 전환</p>
-        <p>미니멀하고 인터랙티브한 UI 구성</p>
+            <div class ="m-content">
+              <div class ="m-title">
+                <p><strong> BRAND STORY</strong></p>
+                <p>리케(LYKKE)는 ‘행복’을 뜻하는 덴마크어에서 시작된 이름으로,
+                  “다른 결과는 다른 시작에서 나온다”는 철학을 바탕으로
+                  의도적으로도 ‘다르게 시작’하려는 가구 브랜드입니다.
+                  가구는 단순한 물건이 아니라,
+                  행복한 사람들과의 공간을 오래도록 함께 채우는 존재임을 알기에
+                  리케는 디자인, 품질, 가격 세 요소 모두를 신중하게 설계합니다.
+                  디자인 가구의 본질과 가치를 유지하면서도
+                  합리적인 가격으로 제안하는 브랜드입니다.</p>
+              </div>  
+              <div class ="m-title">
+                <p> <strong>OVERVIEW</strong></p>
+                <P>리케는 미니멀한 디자인과 실용성, 합리적인 가격을 겸비한
+                  프리미엄 감성의 가구 브랜드입니다.
+                  간결하고 감각적인 공간 구성, 직관적인 제품 구조, 
+                  여러 모듈을 조합할수 있다는 시각 중심의 쇼핑 경험을 제공할수 있도록 기획했습니다.
+                  </p>
+              </div>  
+            </div> 
+            <div class ="line"></div>
+               <div class ="index">
+               <div class ="index_area">
+                  <p><strong>01. MAIN VISUAL</strong></p>
+                  <p>브랜드의 핵심 가치를 반영하는 메인 비주얼.</P>
+                  <span class="righttext">  페이지 상단, 곡선형 소파와 따뜻한 베이지 공간이 어우러진 감성 이미지 배치.</span>                   
+                </div>
+               <div class ="index_area">
+                  <p><strong>02.SHOWROOM</strong></p>
+                  <p>공간에 직접 배치된 제품 이미지들로 구성.</P> 
+                    <span class="righttext"> 실제 공간 연출 사진으로 고객이 제품을 직관적으로 이해할 수 있도록 함.</span>
+                </div>
+             </div> 
+               <div class ="index_area">
+                  <p><strong>03.PRODUCT STORY</strong></p>
+                  <p>제품별 특징과 철학이 반영된 설명 텍스트.</P> 
+                    <span class="righttext">  중간 섹션의 “소파를 바라보는 리케의 시선”, “가벼워서 좋은 이유” 등의 짧은 문구 강조.</span>
+                </div>
+               <div class ="index_area">
+                  <p><strong>04.COLLECTION LINE-UP</strong></p>
+                  <p>브랜드의 방향성과 함께할 수 있도록 소비자에게 제안.</P> 
+                    <span class="righttext">  “Come join LYKKE” 문구를 활용한 참여 유도 섹션.</span>
+                </div>
+                 <div class ="index_area">
+                  <p><strong>05. TABLE & HANGER</strong></p>
+                  <p>서브 제품군 소개.</P> 
+                    <span class="righttext"> 테이블과 행거 제품군을 이미지와 함께 간단한 설명으로 구성. </span>
+                </div>
+                 <div class ="index_area">
+                  <p><strong>06.FOOTER</strong></p>
+                  <p>브랜드 정보와 고객지원 링크 제공.</P> 
+                    <span class="righttext"> 가장 하단의 블랙 톤 배경에 약관, 고객센터, SNS 링크 정리.</span>
+                </div>
+             </div> 
       `,
       image: "./assets/images/LYKKE.jpg"
+      
     }
   };
 
