@@ -135,12 +135,12 @@ gsap.timeline({
     toggleActions: "play none none none"
   }
 })
-.to(".sc-about .line", { height: 150, duration: 1.2, ease: "power3.out" })
-.to(".sc-about .line2", { scaleX: 1, duration: 1.2, ease: "power3.out" })
-.to(".sc-about .title", { opacity: 1, y: 0, duration: 1.4, ease: "power3.out" })
-.to(".sc-about .top_dsce", { opacity: 1, y: 0, duration: 1.4, ease: "power3.out" }, "-=1")
-.to(".sc-about .b_content", { opacity: 1, y: 0, duration: 1.4, ease: "power3.out" }, "-=1")
-.to(".sc-about .link_content", { opacity: 1, y: 0, duration: 1.4, ease: "power3.out" }, "-=1");
+.to(".sc-about .line", { height: 150, duration: 1, ease: "power2.out" })
+.to(".sc-about .line2", { scaleX: 1, duration: 1, ease: "power2.out" })
+.to(".sc-about .title", { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" })
+.to(".sc-about .top_dsce", { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }, "-=1")
+.to(".sc-about .b_content", { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }, "-=1")
+.to(".sc-about .link_content", { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }, "-=1");
 
 // ✅ sc-contact 라인 + 텍스트
 const tlContact = gsap.timeline({
