@@ -1170,24 +1170,24 @@ h2.visible {
       font-size: 30px;
     }
     .sc-design .text-wrap .title{
-      font-size: 50px;
+      font-size: 40px;
     }
     .c-card .font16,
     .c-card .font15{
-    font-size: 70px !important;
+    font-size: 50px !important;
     }
     .drfont{
     font-size: 80px !important;
     }
     .c-card .font1,
     .c-card .font1{
-      font-size: 90px !important;
+      font-size: 80px !important;
     }
     .gnb-list{
       display: none !important;
     }
     .desgin-content .d-area .other-item {
-      height: 170px !important;
+      height: 120px !important;
     }
     
 }
@@ -1228,16 +1228,22 @@ h2.visible {
   .h_tag{
     font-size: 15px !important;
   }
+  .sc-about .top_dsce {
+        font-size: 20px;
+  }
+  .sc-about .title {
+    margin-bottom: 60px !important;
+  }
+  .drfont {
+        font-size: 70px !important;
+  }
 
   .mb_footer img{
     width: 300px;
   }
   .desgin-content {
-    padding: 0 0.7rem 7rem
+padding: 1rem 0.6rem 6rem;
   }
 
   
-}
-
-@media screen and (max-width: 768px) {
 }
