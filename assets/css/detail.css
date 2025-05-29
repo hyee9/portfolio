@@ -14,7 +14,15 @@
     }
     a{
        text-decoration-line: none;
+      color: #000000;  
     }
+    a:hover {
+        color: #463a3a;         /* 호버 시 변경 원하면 */
+      }
+
+      a:active {
+        color: #463a3a;
+      }
     .h2{
       font-size: 16px;
       width: 100%;
@@ -82,7 +90,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 60px;
-  
     }
     .preview-content {
       position: relative;
