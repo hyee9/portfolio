@@ -1042,6 +1042,14 @@ h2.visible {
 .desc_text{
   margin-top: 10px;
 }
+.small{
+  width: 50px;
+  height: 50px;
+}
+.big{
+  width: 300px;
+  height: 300px;
+}
 
 @keyframes wave {
   0%   { transform: rotate(0deg); }
