@@ -325,4 +325,26 @@ gsap.to(lines, {
       ease: "power3.out"
     });
 
-    
+gsap.to(".main-bg", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".sc-main",
+    start: "top top+=20",
+    end: "top top+=600",
+    scrub: true
+  }
+});
+
+gsap.registerPlugin(ScrollTrigger);
+
+  const mainBg = document.querySelector(".main-bg");
+
+  gsap.to(mainBg, {
+    opacity: 0,
+    scrollTrigger: {
+      trigger: ".sc-main",
+      start: "top top",
+      end: "bottom top",
+      scrub: true
+    }
+  });

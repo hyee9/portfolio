@@ -21,6 +21,7 @@ ul{list-style: none;}
 
 
 body {
+    background-color: #1c1c1c;
     background-color: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
