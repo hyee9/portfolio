@@ -324,11 +324,4 @@ gsap.to(lines, {
       stagger: 0.05,
       ease: "power3.out"
     });
-
-function setViewportUnit() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-window.addEventListener('resize', setViewportUnit);
-window.addEventListener('orientationchange', setViewportUnit);
-setViewportUnit();
+    
