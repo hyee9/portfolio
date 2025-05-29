@@ -1184,6 +1184,12 @@ h2.visible {
     display: block;
     text-align: center;
   }
+  .sc-about{
+    height: 120vh !important;
+  }
+  .sc-design {
+     height: 100vh !important;
+  }
 
   .mb_footer .infor_area span {
     display: block;
