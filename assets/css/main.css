@@ -191,8 +191,12 @@ h2.visible {
     background-repeat: no-repeat;
     opacity: 1;
     transition: opacity 0.5s ease;
-    z-index: -1;
   }
+
+  .sc-main.hide-bg::before {
+  opacity: 1;
+  }
+
   
 .video-centent{
     position: absolute;
@@ -213,6 +217,10 @@ h2.visible {
   .sc-main.hide-bg::before {
     opacity: 0;
   }
+
+  .sc-main.hide-bg {
+    background-color: #1c1c1c;
+}
 
 
 

@@ -324,4 +324,5 @@ gsap.to(lines, {
       stagger: 0.05,
       ease: "power3.out"
     });
+
     
