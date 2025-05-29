@@ -1193,7 +1193,10 @@ h2.visible {
     display: none;
   }
   .c-card_text{
-    font-size: 20px;
+    font-size: 15px !important;
+  }
+  .h_tag{
+    font-size: 12px !important;
   }
 
   .mb_footer img{
@@ -1202,6 +1205,7 @@ h2.visible {
   .desgin-content {
     padding: 0 0.7rem 7rem
   }
+
   
 }
 
