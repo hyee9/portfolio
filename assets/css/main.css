@@ -1185,7 +1185,7 @@ h2.visible {
     text-align: center;
   }
   .sc-about{
-    height: 120vh !important;
+    height: 220vh !important;
   }
   .sc-design {
      height: 100vh !important;
@@ -1196,7 +1196,12 @@ h2.visible {
     /* margin: 70px 0; */
     font-size: 20px;
   }
-
+  .sw-banner{
+    display: none;
+  }
+  .c-card_text{
+    font-size: 20px;
+  }
   .infor_area .oline {
     width: 100%;
     height: 0.5px;
@@ -1206,6 +1211,25 @@ h2.visible {
   .mb_footer img{
     width: 300px;
   }
+
+      .c-card .font16,
+    .c-card .font15{
+    font-size: 30px !important;
+    }
+    .drfont{
+    font-size: 30px !important;
+    }
+    .c-card .font1,
+    .c-card .font1{
+      font-size: 30px !important;
+    }
+    .c-card_link {
+      min-height:200px !important;
+    }
+
+    .sc-design .text-wrap .title {
+        font-size: 30px !important;
+    }
 
 }
 
