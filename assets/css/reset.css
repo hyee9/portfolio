@@ -20,6 +20,7 @@ a {text-decoration:none}
 table {border-collapse:collapse;border-spacing:0}
 ul{list-style: none;}
 
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);

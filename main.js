@@ -2,17 +2,22 @@ $(document).ready(function () {
   const scrollTop = () => $(window).scrollTop();
   const scrollBottom = () => scrollTop() + $(window).height();
 
-  // ✅ 배경 숨김 처리
+  // ✅ 스크롤 이벤트 처리
   $(window).on('scroll', function () {
-    $('.sc-main').toggleClass('hide-bg', scrollTop() > 550);
+    const isScrolled = scrollTop() > 550;
 
-    // ✅ 텍스트/버튼 등장
-    // $('.text_content').each(function () {
-    //   if (scrollBottom() > $(this).offset().top + 100) {
-    //     $(this).find('h2').addClass('visible');
-    //   }
-    // });
+    // 배경 숨김
+    $('.sc-main').toggleClass('hide-bg', isScrolled);
+
+    // 이미지 src 교체
+    const targetImg = $('img[src$="12.png"], img[src$="12_1.png"]');
+    targetImg.attr('src', isScrolled ? './assets/images/12_1.png' : './assets/images/12.png');
+
+    // 선 색상 변경
+    $('.main_content_line_group [class^=lineG] [class^=line]').toggleClass('line--white', isScrolled);
   });
+
+  // ✅ 초기 스크롤 상태 적용
   $(window).trigger('scroll');
 
   // ✅ 이미지 애니메이션 (IntersectionObserver)
@@ -75,6 +80,26 @@ if (document.querySelector('.sw-banner')) {
     return tl;
   }
 }
+
+const gridTL = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sc-main",
+    start: "top 80%",
+    toggleActions: "play none none none"
+  }
+});
+
+gridTL
+  .to(".v-line", { scaleY: 1, duration: 1, stagger: 0.1, ease: "power3.out" }, 0)
+  .to(".h-line", { scaleX: 1, duration: 1, stagger: 0.1, ease: "power3.out" }, 0.2)
+  .to(".grid-item", {
+    opacity: 1,
+    scale: 1,
+    stagger: 0.1,
+    duration: 0.8,
+    ease: "power3.out"
+  }, 0.5);
+
 
 gsap.timeline({
   scrollTrigger: {
@@ -271,3 +296,31 @@ document.querySelectorAll('.gnb-item').forEach(item => {
     }
   });
 });
+
+
+// 메인 이미지
+const lines = document.querySelectorAll('[class^="lineG"] [class^="line"]');
+gsap.set(lines, { scale: 0, opacity: 0 });
+gsap.to(lines, {
+  scale: 1,
+  opacity: 1,
+  stagger: 0.05,
+  ease: "power3.out"
+});
+
+    const mainLines = document.querySelectorAll('[class^="lineG"] [class^="line"]');
+    gsap.set(mainLines, { scale: 0, opacity: 0 });
+
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: ".sc-main",
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    }).to(mainLines, {
+      scale: 1,
+      opacity: 1,
+      duration: 0.6,
+      stagger: 0.05,
+      ease: "power3.out"
+    });
