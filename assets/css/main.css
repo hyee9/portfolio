@@ -618,7 +618,6 @@ h2.visible {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
     height: 400px;
 }
 .text-img1{
@@ -1074,7 +1073,7 @@ h2.visible {
 
 @media (max-width: 1000px) {
     .about_centnet {
-      height: 120vh;
+      height: 100vh;
     }
     .o-container {
       display: block;
@@ -1126,4 +1125,34 @@ h2.visible {
     .mb_contnent{
       display: block;
     }
+    .sc-about .top_dsce{
+      font-size: 30px;
+    }
+    .sc-design .text-wrap .title{
+      font-size: 50px;
+    }
+    .c-card .font16,
+    .c-card .font15{
+    font-size: 70px !important;
+    }
+    .drfont{
+        font-size: 80px !important;
+    }
+    .c-card .font1,
+    .c-card .font1{
+      font-size: 90px !important;
+    }
+    .gnb-list{
+      display: none !important;
+    }
+    .desgin-content .d-area .other-item {
+      height: 170px !important;
+    }
+    
+}
+
+@media (max-width: 700px) {
+.infor_content{
+      font-size: 50px;
+}
 }
