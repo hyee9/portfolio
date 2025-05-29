@@ -108,65 +108,65 @@ h2.visible {
 .hover-img-1 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/1.png');
+  background-image: url('../assets/images/1.png');
   background-size: cover;
   background-position: center;
 }
 .hover-img-1:hover {
-  background-image: url('./assets/images/1_1.png');;
+  background-image: url('../assets/images/1_1.png');;
 }
 .hover-img-2 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/2.png');
+  background-image: url('../assets/images/2.png');
   background-size: cover;
   background-position: center;
 }
 .hover-img-2:hover {
-  background-image: url('./assets/images/2_1.png');;
+  background-image: url('../assets/images/2_1.png');;
 }
 .hover-img-3 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/3_1.png');
+  background-image: url('../assets/images/3_1.png');
   background-size: cover;
   background-position: center;
 }
 .hover-img-3:hover {
-  background-image: url('./assets/images/3_2.png');;
+  background-image: url('../assets/images/3_2.png');;
 }
 .hover-img-5 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/5.png');
+  background-image: url('../assets/images/5.png');
   background-size: cover;
   background-position: center;
 }
 .hover-img-5:hover {
-  background-image: url('./assets/images/5_1.png');;
+  background-image: url('../assets/images/5_1.png');;
 }
 
 .hover-img-15 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/15.png');
+  background-image: url('../assets/images/15.png');
   background-size: cover;
   background-position: center;
 }
 
 .hover-img-15:hover {
-  background-image: url('./assets/images/15_1.png');;
+  background-image: url('.../assets/images/15_1.png');;
 }
 .hover-img-11 {
   width: 80%;
   height: 100%;
-  background-image: url('./assets/images/11.png');
+  background-image: url('../assets/images/11.png');
   background-size: cover;
   background-position: center;
 }
 
 .hover-img-11:hover {
-  background-image: url('./assets/images/11_1.png');;
+  background-image: url('../assets/images/11_1.png');;
 }
 
   .img-centent {
