@@ -1074,7 +1074,7 @@ h2.visible {
 
 @media (max-width: 1000px) {
     .about_centnet {
-      height: 100vh;
+      height: 120vh;
     }
     .o-container {
       display: block;
